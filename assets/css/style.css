@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(8, 7, 7);
+}
+
+.info{
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+    z-index: 1;
+}
+
+.cards{
+    background-image: linear-gradient(#212121, #d17f40);
+    height:370px;
+    box-shadow: 3px, 4px, 10px,2px #424242;
+    color: white;
+    border-radius:4% 4% 4% 4%;
+}
+.text-right .btn{
+    color: white;
+    background-image: linear-gradient(to right bottom, #f1005f, #302502);;
+}
+.postcard h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+.loader{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#postContainer{
+    margin-top: 500px;
+    z-index: 0;
+}
